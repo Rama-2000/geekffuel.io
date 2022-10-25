@@ -171,3 +171,201 @@ a{
     color: #0D0D0D;
     margin-top: 25px;
 }
+.plan{
+    padding: 100px 0;
+}
+.plan_heading h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 91%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0D0D0D;
+}
+.plan_heading p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #0D0D0D;
+    margin-top: 30px;
+}
+.plan_types{
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.plan_type{
+    background-color: #F8F8F8;
+    padding: 40px 40px 20px 40px;
+}
+.plan_type h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 91%;
+    text-transform: uppercase;
+    color: #0D0D0D;
+} 
+.plan_price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #dbc8c8;
+    margin-top: 20px;
+}
+.plan_price span{
+    font-weight: 500;
+    font-size: 34.4118px;
+    line-height: 38px;
+    text-align: center;
+    color: #0D0D0D;
+}
+.plan_type h4{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D0D0D;
+}
+.plan_gives{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.plan_gives p{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #dbc8c8;
+}
+.plan_gives .plan_active{
+    color: #0D0D0D;
+}
+.plan_btn, .first_month-btn{
+    background: #FF5050;
+    padding: 20px 38px;
+    border: none;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 91%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.plan_footer{
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #0D0D0D
+}
+.plan_footer span{
+    font-weight: 700;
+}
+.first_month{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.first_month-text{
+    width: 416px;
+}
+.first_month-text h2{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 91%;
+    text-transform: uppercase;
+    color: #0D0D0D;
+}
+.first_month-text p{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #0D0D0D;
+    opacity: 0.6;
+}
+.first_month-btn{
+    margin: 2fand0px 0 0 0;
+}
+.fandoms{
+    margin: 100px 0;
+}
+.fandoms h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 91%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #0D0D0D;
+}
+.images{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer, .footer_bottom{
+    background: #262425;
+}
+.footer_top{
+   padding: 80px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items:flex-start;
+}
+.footer_menu{
+    display: flex;
+}
+.footer_menu-one, .footer_menu-two{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.footer_menu-one a, .footer_menu-two a{
+    padding-bottom: 34px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer_form h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.form_input{
+    margin: 30px 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FFFFFF;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.form_input input{
+    border: none;
+	border-bottom: 0.125rem solid var(--omrs-color-ink-medium-contrast);
+	width: 80%;
+	line-height: 147.6%;
+    background-color: #262425;
+    color: white;
+    margin-right: 20px;
+}
+.form_input input:focus{
+    outline: none;  
+}
+.footer_bottom{
+    border-top: 2px solid #F8F8F8;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.footer_bottom h3{
+    color: white;
+}
